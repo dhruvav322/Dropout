@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+*.pkl
+logs/
+app/data/sample_students.csv
+
+# OS
+.DS_Store

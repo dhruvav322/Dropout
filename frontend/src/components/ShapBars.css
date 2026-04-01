@@ -1,0 +1,42 @@
+.shap-bars {
+  padding: var(--spacing-8);
+}
+
+.shap-bars__header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  margin-bottom: var(--spacing-6);
+}
+
+.shap-bars__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6);
+}
+
+.shap-bar-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-2);
+}
+
+.shap-bar-item__label {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--on-surface);
+}
+
+.shap-bar-item__value {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--on-surface-variant);
+}
+
+.shap-bar-item__value--risk {
+  color: var(--error);
+}

@@ -1,0 +1,67 @@
+.top-header {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  right: 0;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-8);
+  background: rgba(247, 249, 251, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(198, 198, 205, 0.15);
+  z-index: 50;
+}
+
+.top-header__brand {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--on-surface);
+}
+
+.top-header__right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.top-header__search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.top-header__search .material-symbols-outlined {
+  position: absolute;
+  left: 12px;
+  color: var(--on-surface-variant);
+}
+
+.top-header__search-input {
+  background: var(--surface-container-highest);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 6px 16px 6px 40px;
+  font-size: 0.875rem;
+  color: var(--on-surface);
+  width: 260px;
+  transition: all var(--transition-fast);
+}
+
+.top-header__search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+.top-header__institution {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--on-surface-variant);
+  background: var(--surface-container);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}

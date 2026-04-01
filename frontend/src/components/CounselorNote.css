@@ -1,0 +1,33 @@
+.ai-loading {
+  padding: var(--spacing-4) 0;
+}
+
+.counselor-priority {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  margin-left: auto;
+}
+
+.counselor-priority[data-priority="critical"] {
+  background: rgba(186, 26, 26, 0.3);
+  color: #ffdad6;
+}
+
+.counselor-priority[data-priority="high"] {
+  background: rgba(137, 206, 255, 0.2);
+  color: #c9e6ff;
+}
+
+.counselor-priority[data-priority="medium"] {
+  background: rgba(185, 199, 224, 0.2);
+  color: #d5e3fd;
+}
+
+.counselor-priority[data-priority="low"] {
+  background: rgba(185, 199, 224, 0.1);
+  color: #94a3b8;
+}

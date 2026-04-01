@@ -1,0 +1,70 @@
+.student-table-section {
+  overflow: hidden;
+}
+
+.student-table__header {
+  padding: var(--spacing-6) var(--spacing-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--surface-container);
+  background: rgba(242, 244, 246, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+.student-table__scroll {
+  overflow-x: auto;
+}
+
+.student-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+}
+
+.student-cell__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-cell__name {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--on-surface);
+}
+
+.student-cell__id {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+}
+
+.risk-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+}
+
+.factor-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+}
+
+.factor-cell__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-2);
+  border-radius: var(--radius-lg);
+  background: var(--tertiary-container);
+  color: var(--tertiary-fixed);
+}
+
+.student-table__footer {
+  padding: var(--spacing-4) var(--spacing-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(242, 244, 246, 0.3);
+}

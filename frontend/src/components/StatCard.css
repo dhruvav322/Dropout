@@ -1,0 +1,49 @@
+.stat-card {
+  padding: var(--spacing-8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 140px;
+}
+
+.stat-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-4);
+}
+
+.stat-card__icon {
+  padding: var(--spacing-3);
+  background: var(--primary-fixed);
+  border-radius: var(--radius-lg);
+  color: var(--primary);
+}
+
+.stat-card--critical .stat-card__icon {
+  background: var(--risk-critical-bg);
+  color: var(--error);
+}
+
+.stat-card--at-risk .stat-card__icon {
+  background: var(--risk-at-risk-bg);
+  color: var(--risk-at-risk);
+}
+
+.stat-card__value {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: var(--on-surface);
+  line-height: 1;
+  margin-bottom: var(--spacing-2);
+}
+
+.stat-card__subtitle {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--on-secondary-container);
+}

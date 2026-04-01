@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+logs/
+*.pkl
+app/data/sample_students.csv

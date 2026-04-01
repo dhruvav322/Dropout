@@ -1,0 +1,117 @@
+.student-page {
+  max-width: 900px;
+}
+
+.student-page__back {
+  margin-bottom: var(--spacing-6);
+  font-size: 0.875rem;
+  color: var(--on-surface-variant);
+}
+
+.student-page__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-8);
+}
+
+.student-page__profile-left {
+  display: flex;
+  gap: var(--spacing-6);
+  align-items: flex-start;
+}
+
+.student-page__avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-xl);
+  background: var(--surface-container-high);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-surface-variant);
+  flex-shrink: 0;
+}
+
+.student-page__avatar .risk-badge {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.55rem;
+  white-space: nowrap;
+}
+
+.student-page__name {
+  font-size: 2.25rem;
+  margin-bottom: var(--spacing-2);
+}
+
+.student-page__meta {
+  display: flex;
+  gap: var(--spacing-2);
+  flex-wrap: wrap;
+}
+
+.student-page__meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+  background: var(--surface-container);
+  padding: 4px 10px;
+  border-radius: var(--radius-md);
+}
+
+.student-page__score-block {
+  text-align: right;
+}
+
+.student-page__big-score {
+  font-family: 'Manrope', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.student-page__score-suffix {
+  font-size: 1.25rem;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.student-page__tabs {
+  display: flex;
+  border-bottom: 1px solid var(--surface-container);
+}
+
+.student-page__tab {
+  padding: var(--spacing-3) var(--spacing-5);
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.student-page__tab:hover {
+  color: var(--on-surface);
+}
+
+.student-page__tab--active {
+  color: var(--on-surface);
+  font-weight: 700;
+  border-bottom-color: var(--primary);
+}
+
+.student-page__interventions {
+  margin-top: var(--spacing-8);
+}

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+backend/venv/
+backend/.env
+backend/logs/
+backend/app/ml/trained_model.pkl
+backend/app/data/sample_students.csv
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store

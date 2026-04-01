@@ -14,18 +14,16 @@ from ..logger import log
 
 router = APIRouter()
 
-# Check for real Gemini API key
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 _gemini_client = None
-
 
 def _get_gemini_client():
     """Lazy-load Gemini client."""
     global _gemini_client
-    if _gemini_client is None and GEMINI_API_KEY:
+    api_key = os.getenv("GEMINI_API_KEY")
+    if _gemini_client is None and api_key:
         try:
             from google import genai
-            _gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+            _gemini_client = genai.Client(api_key=api_key)
             log.info("Gemini API client initialized successfully")
         except Exception as e:
             log.error(f"Failed to initialize Gemini client: {e}")
@@ -189,7 +187,7 @@ async def generate_counselor_note(request: CounselorNoteRequest, req: Request = 
     generated_by = "Gemini Pro"
     note = None
 
-    if GEMINI_API_KEY:
+    if os.getenv("GEMINI_API_KEY"):
         note = await _generate_with_gemini(request, primary_factor)
         if note:
             generated_by = "Gemini 2.0 Flash (Live)"

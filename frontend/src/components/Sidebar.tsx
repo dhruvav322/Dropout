@@ -40,20 +40,14 @@ export default function Sidebar() {
           <span>Upload</span>
         </NavLink>
         <NavLink
-          to="/"
-          className="sidebar__link"
-          id="nav-filter"
-        >
-          <span className="material-symbols-outlined">filter_alt</span>
-          <span>Filter</span>
-        </NavLink>
-        <NavLink
-          to="/"
-          className="sidebar__link"
+          to="/admin"
+          className={({ isActive }) =>
+            `sidebar__link ${isActive ? 'sidebar__link--active' : ''}`
+          }
           id="nav-settings"
         >
-          <span className="material-symbols-outlined">settings</span>
-          <span>Settings</span>
+          <span className="material-symbols-outlined">manufacturing</span>
+          <span>Admin Console</span>
         </NavLink>
       </nav>
 

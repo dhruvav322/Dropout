@@ -127,11 +127,15 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
     """Rate limits requests by client IP."""
 
     async def dispatch(self, request: Request, call_next):
+        # Ignore OPTIONS requests (CORS preflight) so they don't consume tokens or fail
+        if request.method == "OPTIONS":
+            return await call_next(request)
+
         client_ip = request.client.host if request.client else "unknown"
 
-        # Higher cost for upload endpoints
+        # Higher cost for upload endpoints, but limit must be higher than cost!
         is_upload = request.url.path.endswith("/upload")
-        limit = RATE_LIMIT_UPLOAD if is_upload else RATE_LIMIT_DEFAULT
+        limit = RATE_LIMIT_DEFAULT  # Use the big bucket for everything (20)
         cost = 5 if is_upload else 1
 
         if not _rate_limiter.consume(client_ip, cost=cost, limit=limit):

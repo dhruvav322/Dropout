@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Student } from '../services/api';
@@ -49,6 +50,22 @@ function getPrimaryFactor(student: Student): { icon: string; label: string } {
 
 export default function StudentTable({ students, reportId }: StudentTableProps) {
   const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
+
+  const atRiskCount = students.filter(s => s.risk_tier !== 'Stable').length;
+  const totalPages = Math.ceil(students.length / itemsPerPage);
+  
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentStudents = students.slice(startIndex, startIndex + itemsPerPage);
+
+  const handleNext = () => {
+    if (currentPage < totalPages) setCurrentPage(p => p + 1);
+  };
+
+  const handlePrev = () => {
+    if (currentPage > 1) setCurrentPage(p => p - 1);
+  };
 
   return (
     <motion.section
@@ -82,7 +99,7 @@ export default function StudentTable({ students, reportId }: StudentTableProps) 
             </tr>
           </thead>
           <tbody>
-            {students.slice(0, 10).map((student, idx) => {
+            {currentStudents.map((student, idx) => {
               const primaryFactor = getPrimaryFactor(student);
               return (
                 <motion.tr
@@ -142,14 +159,23 @@ export default function StudentTable({ students, reportId }: StudentTableProps) 
 
       <div className="student-table__footer">
         <span className="label-xs">
-          Showing {Math.min(10, students.length)} of{' '}
-          {students.filter(s => s.risk_tier !== 'Stable').length} at-risk students
+          Showing {startIndex + 1}-{Math.min(startIndex + itemsPerPage, students.length)} of {students.length} students ({atRiskCount} flagged At-Risk)
         </span>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
-          <button className="btn btn-secondary" style={{ padding: '4px 12px', fontSize: '0.75rem' }}>
+          <button 
+            className="btn btn-secondary" 
+            style={{ padding: '4px 12px', fontSize: '0.75rem' }}
+            onClick={handlePrev}
+            disabled={currentPage === 1}
+          >
             Previous
           </button>
-          <button className="btn btn-primary" style={{ padding: '4px 12px', fontSize: '0.75rem' }}>
+          <button 
+            className="btn btn-primary" 
+            style={{ padding: '4px 12px', fontSize: '0.75rem' }}
+            onClick={handleNext}
+            disabled={currentPage === totalPages}
+          >
             Next
           </button>
         </div>

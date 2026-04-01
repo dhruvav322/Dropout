@@ -14,7 +14,7 @@ export default function StudentPage() {
   const reportId = searchParams.get('report_id') || undefined;
   const navigate = useNavigate();
 
-  const { student, institution, loading, error } = useStudent(studentId!, reportId);
+  const { student, loading, error } = useStudent(studentId!, reportId);
   const [counselorNote, setCounselorNote] = useState<CounselorNoteType | null>(null);
   const [noteLoading, setNoteLoading] = useState(false);
 

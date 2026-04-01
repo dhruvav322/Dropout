@@ -1,0 +1,451 @@
+student_id,name,department,year,first_semester_credits_approved,tuition_payment_status,first_assignment_delay_hours,forum_messages_posted,attendance_pct,lms_logins_per_week,library_logins_per_week,avg_grade,counselor_visits,late_submissions
+STU0500,Jonathan Hunt,English Literature,Senior,18,Paid,2.3,0,90.6,16.8,0,93.5,0,0
+STU0501,Ashley Walker,Mathematics,Junior,9,Paid,0,7,48.9,14.5,3.0,73.0,4,3
+STU0502,Kristie Logan,Mathematics,Junior,18,Delayed,40.1,0,99.4,0,0.4,83.9,1,2
+STU0503,Monica Tate,Electrical Engineering,Junior,16,Paid,24.0,1,59.9,6.7,4.2,54.2,2,6
+STU0504,Laurie Allen,Economics,Senior,17,Paid,0,7,88.0,5.6,0,37.7,0,7
+STU0505,Ashley Montoya,Electrical Engineering,Senior,6,Paid,104.0,14,49.9,7.7,3.2,48.4,0,4
+STU0506,Robert Jennings,Electrical Engineering,Senior,18,Paid,20.4,0,67.5,7.5,1.6,55.1,1,3
+STU0507,Christine King,Mathematics,Senior,13,Delayed,0,0,44.1,16.1,2.1,67.0,2,0
+STU0508,Tanya Trujillo,Psychology,Senior,18,Delayed,0,21,82.1,10.6,2.7,72.7,2,1
+STU0509,Ms. Angela Peterson DDS,Electrical Engineering,Junior,6,Delayed,30.1,15,65.1,11.0,3.1,65.0,1,2
+STU0510,Jim Walter,Business Administration,Junior,6,Unpaid,0,8,62.5,4.6,6.7,28.3,0,6
+STU0511,Laura Johnson,Economics,Freshman,4,Delayed,10.9,14,69.2,8.9,3.7,88.6,0,0
+STU0512,Heidi Henderson,Mechanical Engineering,Senior,4,Paid,29.8,9,92.3,10.5,5.2,46.3,3,7
+STU0513,Kevin Jimenez,Economics,Freshman,16,Paid,0,12,90.1,2.2,1.0,82.9,0,4
+STU0514,Jonathan Christensen,Psychology,Sophomore,3,Delayed,0,0,88.6,24.7,0,99.6,1,0
+STU0515,Katherine Rangel,Economics,Junior,7,Paid,31.1,6,78.3,10.0,1.6,87.0,1,0
+STU0516,Jason Howe,Mathematics,Senior,17,Paid,35.7,10,59.3,13.1,0.1,50.8,0,5
+STU0517,Joseph Johnson,Mechanical Engineering,Junior,19,Paid,0,0,85.9,14.4,0,24.7,0,4
+STU0518,Carl Williams,Mathematics,Sophomore,8,Paid,10.8,4,53.1,9.3,0.1,60.4,0,3
+STU0519,Stacie Garcia,Biology,Senior,5,Unpaid,52.5,10,78.9,7.2,2.9,52.3,0,5
+STU0520,Julie Olson,Civil Engineering,Freshman,9,Delayed,13.1,8,81.0,11.6,4.3,55.7,0,6
+STU0521,Stephen Sims,Economics,Junior,14,Unpaid,53.2,0,58.6,10.3,4.6,76.6,2,0
+STU0522,John Noble,Computer Science,Junior,15,Paid,0,4,91.0,10.2,4.5,50.9,3,4
+STU0523,Ms. Kristin Santiago,Computer Science,Senior,8,Delayed,0,14,87.0,3.1,1.5,81.3,1,4
+STU0524,Robert Shaw,Biology,Sophomore,14,Delayed,30.6,15,60.1,9.3,0,48.8,0,3
+STU0525,Stephen Hamilton,Electrical Engineering,Junior,9,Paid,0,3,69.1,16.8,3.3,66.9,0,11
+STU0526,Derrick Johnson,Economics,Junior,12,Paid,31.6,11,63.2,18.1,7.5,55.7,0,5
+STU0527,Linda Ellis,Biology,Sophomore,9,Delayed,48.1,11,99.2,7.5,2.2,51.6,0,4
+STU0528,Katherine Dorsey,Biology,Sophomore,17,Delayed,0,0,85.1,17.2,7.8,78.3,0,0
+STU0529,John Dixon,Electrical Engineering,Sophomore,5,Unpaid,52.2,10,83.8,13.2,3.0,99.2,0,0
+STU0530,Rhonda Grant,Mathematics,Sophomore,6,Paid,0,2,83.3,11.4,2.8,64.6,1,0
+STU0531,Sandra Stewart,Electrical Engineering,Sophomore,14,Unpaid,48.6,16,96.7,15.7,6.8,66.5,0,3
+STU0532,Annette Norris,Psychology,Sophomore,12,Paid,0,7,74.2,10.6,1.5,81.4,0,7
+STU0533,Kaylee Chavez,English Literature,Freshman,9,Paid,0,0,87.2,24.2,8.2,68.5,0,0
+STU0534,Tracy Kirby,Psychology,Sophomore,13,Paid,11.3,1,62.3,10.5,1.9,58.6,0,3
+STU0535,Austin Adams,Mathematics,Junior,12,Paid,16.3,2,100,5.0,4.3,99.5,0,0
+STU0536,Mr. Paul Jenkins MD,Biology,Sophomore,14,Paid,35.2,14,47.6,17.8,3.6,38.2,0,0
+STU0537,Aaron Carpenter,Mathematics,Senior,19,Paid,0,15,100,8.9,1.7,61.0,1,5
+STU0538,Angela Leon,Business Administration,Freshman,17,Paid,18.1,1,60.9,19.7,7.1,90.5,0,0
+STU0539,Marc Walton,Computer Science,Sophomore,10,Paid,0,3,100,7.7,2.3,87.4,0,6
+STU0540,Mary Reid,Mechanical Engineering,Sophomore,10,Paid,3.9,17,57.7,5.3,1.0,70.5,0,0
+STU0541,Erik Aguilar,Business Administration,Freshman,12,Paid,0,10,100,26.1,2.0,90.9,0,1
+STU0542,Tiffany Vasquez,Biology,Senior,3,Paid,0.6,16,100,14.5,4.6,100,0,7
+STU0543,Brandy Walker,Economics,Junior,12,Paid,24.6,6,95.1,12.9,2.4,65.2,1,0
+STU0544,Tina Liu,Electrical Engineering,Junior,15,Unpaid,12.1,0,76.2,14.0,5.6,51.9,0,0
+STU0545,Angela Barnett,Electrical Engineering,Senior,17,Unpaid,20.6,15,51.5,9.7,5.1,100,1,1
+STU0546,Rachel Herman,Business Administration,Junior,8,Unpaid,38.8,8,47.0,2.0,4.8,33.1,2,4
+STU0547,Jason Morton,Civil Engineering,Freshman,13,Paid,72.1,2,46.8,18.0,3.0,50.2,2,7
+STU0548,Christina Smith,Business Administration,Sophomore,10,Paid,16.9,0,86.5,0.6,4.5,71.1,2,0
+STU0549,Stephen Williams,Business Administration,Junior,15,Delayed,0,6,80.5,7.6,0.8,63.8,1,6
+STU0550,Hayden Hammond,Mechanical Engineering,Senior,17,Delayed,2.7,8,88.1,17.7,4.1,40.9,0,4
+STU0551,Jordan Murphy,English Literature,Junior,15,Delayed,0,8,85.1,15.6,7.6,91.5,0,3
+STU0552,Gabriel Martinez,Business Administration,Freshman,16,Delayed,43.2,4,61.8,0,5.9,28.3,1,3
+STU0553,Laura Ballard,Biology,Junior,7,Delayed,63.1,20,96.6,13.8,5.6,37.4,0,5
+STU0554,Joseph Hamilton,Civil Engineering,Freshman,17,Paid,64.6,6,73.8,6.0,0,76.2,0,7
+STU0555,Kyle Gregory,Biology,Junior,19,Paid,0,5,71.2,9.9,4.7,46.8,0,9
+STU0556,James Gonzalez,Mathematics,Sophomore,4,Delayed,0,6,98.4,13.9,0.3,90.0,2,6
+STU0557,Amber Gardner,Mathematics,Sophomore,2,Paid,60.7,3,72.4,14.1,3.7,62.0,3,1
+STU0558,Jodi Fischer,Psychology,Freshman,12,Paid,4.1,1,67.9,18.3,2.4,65.6,2,5
+STU0559,Michael Rich,Electrical Engineering,Junior,20,Paid,0,1,86.5,6.2,3.4,61.0,1,9
+STU0560,Joseph Floyd,Economics,Freshman,20,Paid,44.0,9,72.9,18.3,6.3,20.8,0,5
+STU0561,Tina Martin,Biology,Sophomore,5,Paid,35.5,12,80.0,14.1,0.6,63.0,3,5
+STU0562,Jean Coleman,Computer Science,Sophomore,19,Paid,0,12,79.5,11.4,5.0,56.6,0,10
+STU0563,Blake Torres,Electrical Engineering,Sophomore,17,Paid,89.7,5,67.0,14.5,3.3,53.1,3,3
+STU0564,Dennis Jimenez,English Literature,Sophomore,19,Paid,32.0,19,54.3,9.9,3.3,52.5,0,1
+STU0565,Jennifer Mcdonald,Business Administration,Sophomore,7,Paid,30.4,2,86.9,12.6,6.2,64.5,0,8
+STU0566,John Wilson,Civil Engineering,Junior,6,Unpaid,24.3,3,84.0,5.9,2.1,56.1,1,6
+STU0567,Rebecca Cabrera,Civil Engineering,Sophomore,18,Paid,75.7,7,75.2,14.3,2.6,61.6,0,4
+STU0568,Crystal Mckay,English Literature,Freshman,2,Unpaid,57.8,16,67.2,18.9,0.8,59.7,0,3
+STU0569,Maria Russell,Computer Science,Senior,4,Delayed,19.2,5,61.7,17.8,5.5,82.1,0,7
+STU0570,Sarah Santiago,Economics,Senior,12,Delayed,0,8,68.1,10.6,2.1,54.2,1,3
+STU0571,Heather Moore,Psychology,Junior,11,Unpaid,1.0,14,100,19.1,0,78.5,2,14
+STU0572,Laura Ryan,English Literature,Sophomore,14,Paid,3.9,11,79.2,14.4,4.6,53.0,0,0
+STU0573,Mike Peters,English Literature,Freshman,7,Paid,0,5,84.8,10.3,3.0,56.8,1,6
+STU0574,Cindy Phillips,Civil Engineering,Junior,18,Delayed,0,12,52.5,5.7,1.9,20.6,3,0
+STU0575,Justin Garcia,Civil Engineering,Senior,13,Paid,0,15,70.1,12.1,0,66.9,0,8
+STU0576,Troy Jackson,Mechanical Engineering,Freshman,2,Paid,23.7,10,56.6,19.8,4.4,47.0,1,5
+STU0577,Olivia Bowen,Mechanical Engineering,Junior,8,Paid,26.4,3,91.1,6.7,4.7,82.8,1,1
+STU0578,Mark Hunter,Business Administration,Senior,15,Paid,12.4,9,64.2,6.4,4.0,80.3,0,0
+STU0579,Ryan Carter,Mechanical Engineering,Senior,16,Paid,28.2,14,86.7,24.7,1.3,53.8,3,2
+STU0580,Dean Brown,Business Administration,Freshman,13,Paid,43.8,0,55.4,12.1,2.8,49.1,1,8
+STU0581,Steven Frank,Mechanical Engineering,Junior,6,Paid,0,7,82.6,3.5,0.3,97.3,1,0
+STU0582,Alan Davis,Biology,Sophomore,20,Delayed,27.8,17,60.0,22.8,1.5,56.0,0,2
+STU0583,Bryce Jennings,Mathematics,Junior,20,Delayed,25.4,0,72.5,6.7,3.8,60.2,0,10
+STU0584,Taylor Bell,English Literature,Junior,5,Paid,34.0,2,68.7,0,1.6,47.2,1,1
+STU0585,Lisa Pena,Computer Science,Junior,20,Paid,54.9,1,57.9,11.3,3.3,88.1,1,0
+STU0586,Tammy Stewart,Business Administration,Freshman,3,Paid,0,11,53.1,10.1,4.7,63.9,2,7
+STU0587,Joel Werner,Economics,Sophomore,13,Paid,5.7,5,82.1,26.0,0.5,62.9,0,0
+STU0588,Melissa Callahan,Biology,Senior,5,Unpaid,34.5,5,100,26.2,3.3,40.2,0,1
+STU0589,Tammy Price,Economics,Freshman,13,Paid,0,0,73.5,1.3,1.3,80.0,0,4
+STU0590,Heather Moss,English Literature,Sophomore,15,Delayed,74.8,2,100,18.5,4.2,44.3,0,1
+STU0591,Alexander Dominguez,Computer Science,Junior,8,Paid,50.4,7,81.1,7.6,6.8,60.8,2,5
+STU0592,Tyler Marsh,Business Administration,Sophomore,19,Delayed,48.2,13,68.0,10.8,3.4,83.7,2,6
+STU0593,Randall Flores,Mechanical Engineering,Sophomore,6,Paid,31.2,11,78.7,13.6,4.8,74.4,0,0
+STU0594,Kimberly Peterson,Economics,Freshman,19,Paid,66.0,10,64.4,8.5,6.0,72.4,0,2
+STU0595,Mikayla Rodriguez,Computer Science,Freshman,8,Unpaid,72.7,5,88.4,10.4,4.8,48.3,0,3
+STU0596,Bailey Martinez,Economics,Junior,8,Paid,64.2,0,70.1,18.2,0,100,1,4
+STU0597,Matthew Rios,Mathematics,Junior,19,Delayed,0,2,100,11.9,1.2,86.1,0,0
+STU0598,Kenneth Kelly,Computer Science,Freshman,19,Delayed,45.1,3,87.6,25.5,1.5,35.8,2,8
+STU0599,David Fisher,Psychology,Junior,17,Paid,34.8,0,77.6,17.4,5.9,81.2,0,0
+STU0600,Calvin Daniels,Biology,Sophomore,2,Delayed,57.5,14,94.9,11.4,6.0,48.5,0,0
+STU0601,Taylor Sutton,Civil Engineering,Senior,11,Delayed,59.7,11,49.3,12.0,0.9,44.3,1,6
+STU0602,David Hernandez,Psychology,Junior,9,Paid,34.5,0,73.8,17.2,2.5,74.7,0,5
+STU0603,Donald Mendoza,English Literature,Junior,15,Paid,9.4,19,80.3,5.5,3.6,53.1,0,0
+STU0604,Ernest Raymond,Psychology,Junior,14,Paid,55.2,3,72.7,9.9,5.3,64.4,0,7
+STU0605,Sara Tran,Biology,Senior,20,Delayed,57.3,7,87.3,24.6,0,91.8,2,3
+STU0606,Tonya Palmer,Computer Science,Freshman,4,Delayed,93.6,4,100,11.0,3.1,71.0,0,7
+STU0607,Mark Webster,Mechanical Engineering,Senior,4,Paid,0,6,88.1,13.0,3.2,40.3,0,2
+STU0608,Matthew Smith,Mechanical Engineering,Senior,6,Unpaid,48.6,8,76.3,8.0,0,84.2,1,4
+STU0609,Julie Cordova,Computer Science,Junior,14,Unpaid,59.3,6,78.9,19.8,0,77.5,1,3
+STU0610,Shannon Ho,Psychology,Freshman,2,Paid,0,13,87.2,12.1,2.1,66.5,0,6
+STU0611,Jennifer Cherry,Mathematics,Senior,4,Paid,0,1,100,14.5,2.1,72.9,1,4
+STU0612,Crystal Calderon,Mechanical Engineering,Senior,7,Delayed,56.5,19,66.2,9.8,4.4,98.6,2,4
+STU0613,Curtis Howard,Economics,Senior,5,Unpaid,98.9,13,73.3,3.8,6.8,82.9,2,0
+STU0614,Kimberly Wells,Mathematics,Senior,19,Paid,11.6,6,82.0,7.3,3.7,27.8,3,3
+STU0615,Lauren Lopez,Psychology,Senior,8,Paid,70.9,9,53.8,11.7,7.0,71.9,3,0
+STU0616,Brittany English,Biology,Sophomore,7,Unpaid,56.6,0,66.8,14.1,0,85.1,0,5
+STU0617,Robin Conley,Mathematics,Freshman,6,Delayed,84.9,2,64.2,16.9,3.4,77.5,3,0
+STU0618,Rebecca Fowler,Psychology,Sophomore,5,Paid,48.8,6,47.8,20.3,0.1,55.6,0,1
+STU0619,Jake Simon,Business Administration,Senior,6,Unpaid,57.7,0,67.5,9.9,4.3,44.5,0,6
+STU0620,Patrick Lutz,Computer Science,Sophomore,18,Unpaid,41.4,14,71.3,12.9,5.6,43.4,0,4
+STU0621,Daniel Allison,Economics,Junior,6,Paid,23.0,8,86.5,13.4,5.5,41.4,0,0
+STU0622,Laura Sosa,Mechanical Engineering,Senior,8,Paid,22.8,0,78.0,10.8,5.8,86.4,2,4
+STU0623,Victor Black,Civil Engineering,Senior,4,Paid,48.5,8,60.9,15.0,2.7,29.5,1,8
+STU0624,Brooke Hicks,Mathematics,Sophomore,5,Paid,0,11,78.2,11.9,2.2,61.0,1,11
+STU0625,Nicholas Cook,Biology,Freshman,2,Unpaid,47.5,14,83.5,5.6,5.9,76.2,2,7
+STU0626,Andrew Watkins,Business Administration,Sophomore,6,Paid,0,0,42.4,7.1,5.9,44.0,2,4
+STU0627,Carla Carter,Computer Science,Junior,8,Paid,58.3,14,93.8,8.8,0,46.8,1,9
+STU0628,Heather Kaufman,Business Administration,Senior,7,Paid,37.5,13,71.1,6.5,2.4,59.4,0,4
+STU0629,Paul Smith,Computer Science,Junior,11,Paid,3.1,6,100,11.7,6.5,67.9,2,0
+STU0630,Karen Henderson,Civil Engineering,Sophomore,14,Paid,44.5,12,67.1,16.1,1.2,59.9,0,0
+STU0631,Stephanie Werner,Computer Science,Sophomore,14,Paid,23.1,14,72.7,5.4,2.2,81.0,2,1
+STU0632,Carolyn Black MD,Economics,Junior,15,Paid,53.0,5,71.0,12.4,0,94.3,0,0
+STU0633,Carla Eaton,Business Administration,Freshman,4,Paid,54.1,15,93.1,7.7,4.1,73.3,2,8
+STU0634,Sonya Schneider,English Literature,Senior,16,Paid,15.4,10,55.6,8.4,1.1,56.1,0,1
+STU0635,James Richardson,Civil Engineering,Sophomore,2,Delayed,63.5,9,53.6,21.9,3.8,54.9,2,3
+STU0636,Christian Bishop,English Literature,Senior,11,Paid,0,14,96.8,11.5,4.1,82.4,2,2
+STU0637,William Washington,Mechanical Engineering,Junior,10,Paid,0,7,81.4,2.4,5.0,75.7,1,7
+STU0638,Molly James,Business Administration,Freshman,8,Paid,0,0,89.6,15.2,5.7,60.2,2,5
+STU0639,Maria Bailey,Business Administration,Sophomore,19,Unpaid,14.1,9,87.4,18.9,1.4,53.0,3,5
+STU0640,Barbara Stone,Business Administration,Junior,18,Paid,0,17,67.4,12.6,4.6,76.0,2,2
+STU0641,Melinda Bryant,Economics,Sophomore,6,Paid,0,6,82.9,10.5,2.4,80.7,2,1
+STU0642,Angela Maxwell,Computer Science,Senior,3,Paid,14.6,0,72.0,15.3,1.6,64.9,1,4
+STU0643,Johnny Collins,Biology,Freshman,13,Paid,19.8,3,70.5,15.9,0.4,91.8,2,4
+STU0644,Courtney Nguyen,Mechanical Engineering,Junior,9,Delayed,0,12,83.6,11.5,7.0,52.5,1,0
+STU0645,Evelyn Meadows,Biology,Junior,15,Paid,0,10,61.9,28.6,6.0,68.8,0,0
+STU0646,Shannon Powell,Computer Science,Sophomore,13,Paid,0,5,62.5,16.0,5.1,52.9,0,0
+STU0647,Robert Robinson,Psychology,Senior,4,Paid,24.0,12,88.2,5.2,2.1,38.8,0,8
+STU0648,Hannah Cobb,Biology,Junior,14,Unpaid,44.8,0,66.2,9.0,0.4,32.7,0,7
+STU0649,Robert James,Business Administration,Junior,18,Paid,0,15,88.8,19.9,3.2,62.9,0,0
+STU0650,Patrick Douglas,Mathematics,Freshman,15,Paid,67.1,11,81.0,16.3,5.7,92.8,0,2
+STU0651,Derek Houston,English Literature,Freshman,15,Paid,0,2,95.6,7.8,1.9,74.1,0,0
+STU0652,Ryan Wallace,Computer Science,Junior,2,Delayed,0,8,86.3,10.0,0.2,53.9,1,6
+STU0653,Mark Young,Mathematics,Senior,10,Paid,87.4,18,69.3,17.7,4.2,78.9,0,0
+STU0654,Kristina Martinez,Mathematics,Senior,10,Delayed,54.1,15,82.9,11.0,4.2,75.5,0,2
+STU0655,Jimmy Morales,Computer Science,Sophomore,16,Unpaid,77.2,13,73.0,0,1.9,86.8,0,0
+STU0656,Mitchell Craig,English Literature,Freshman,12,Delayed,48.0,20,60.8,12.0,8.0,66.7,0,5
+STU0657,Michael Livingston,Mathematics,Junior,17,Paid,6.6,0,42.6,6.8,5.1,63.3,0,0
+STU0658,Sarah Cisneros,Economics,Senior,2,Unpaid,78.0,2,56.5,12.4,3.0,67.0,0,5
+STU0659,Kimberly Clark,English Literature,Senior,3,Paid,34.5,4,37.4,2.7,2.0,64.8,0,4
+STU0660,Gary Livingston,Mathematics,Senior,8,Paid,29.5,10,72.5,24.8,1.3,69.2,0,4
+STU0661,Alexandra Hansen,Mechanical Engineering,Freshman,12,Paid,10.7,1,79.6,19.2,3.6,68.2,0,2
+STU0662,Geoffrey Newman,Biology,Junior,14,Paid,0,4,100,21.1,0.2,75.9,0,2
+STU0663,Richard Alvarez,English Literature,Junior,5,Paid,2.2,6,85.9,16.8,2.8,73.2,0,5
+STU0664,Gina Johnson,English Literature,Senior,16,Unpaid,87.6,12,59.7,12.5,3.6,80.3,3,0
+STU0665,Bryan Christian,Business Administration,Sophomore,5,Paid,41.5,6,52.2,13.4,7.0,100,1,0
+STU0666,Albert Clark,Mechanical Engineering,Junior,8,Paid,0,0,59.9,24.9,6.0,70.7,0,0
+STU0667,Donald Mccoy,English Literature,Freshman,12,Unpaid,0,8,34.8,13.4,1.1,50.0,1,0
+STU0668,Michael Ryan,Economics,Sophomore,6,Delayed,32.3,9,91.9,11.2,6.9,62.0,1,1
+STU0669,Brendan Rivera,Mechanical Engineering,Freshman,14,Paid,16.0,15,41.0,18.9,1.0,64.9,0,10
+STU0670,John Obrien,Computer Science,Freshman,19,Unpaid,27.4,2,92.0,11.9,4.4,64.1,0,6
+STU0671,Eric Bradley,Electrical Engineering,Sophomore,16,Paid,18.0,5,65.7,22.2,4.9,80.2,0,9
+STU0672,Melanie Hansen,Mathematics,Freshman,6,Paid,14.3,11,100,15.0,1.1,61.5,0,0
+STU0673,Devin Barnes,Biology,Senior,15,Delayed,2.6,12,63.4,18.3,5.3,80.2,0,10
+STU0674,Nicholas Hinton,Civil Engineering,Freshman,4,Delayed,0,0,71.9,20.8,0,47.1,4,2
+STU0675,Susan Barrett MD,Business Administration,Senior,16,Paid,34.4,7,39.8,21.5,4.2,57.4,1,7
+STU0676,Lawrence Scott,Economics,Freshman,18,Paid,0,6,59.3,11.7,3.1,64.1,0,0
+STU0677,Sara Johnson,English Literature,Sophomore,6,Paid,13.9,0,48.5,7.7,5.8,50.0,1,6
+STU0678,Alex Lamb III,Economics,Freshman,3,Paid,50.5,4,77.3,12.1,0,52.8,1,0
+STU0679,Christina Hill,Mechanical Engineering,Junior,10,Paid,17.6,7,76.9,12.5,3.7,57.1,1,4
+STU0680,Jennifer Robinson,Mechanical Engineering,Junior,12,Paid,0,8,79.2,13.9,0.3,72.2,0,6
+STU0681,Jason Brown,Mechanical Engineering,Sophomore,19,Paid,56.1,0,59.8,13.9,0,61.0,0,0
+STU0682,Mary Fleming,English Literature,Senior,17,Unpaid,0,11,93.7,10.0,10.0,58.1,1,0
+STU0683,Elizabeth Olson,Biology,Sophomore,18,Paid,11.7,0,88.4,12.4,5.7,49.9,2,7
+STU0684,Jordan Boyd,Mathematics,Junior,20,Paid,3.0,12,80.6,16.9,0,83.6,1,0
+STU0685,Evan Morgan,Psychology,Freshman,17,Delayed,0,3,60.5,8.2,3.2,50.2,1,0
+STU0686,William Boyer,Mathematics,Junior,10,Paid,4.1,12,100,9.5,0.5,93.3,2,4
+STU0687,David Meza,Biology,Junior,2,Paid,6.9,6,66.4,5.5,0,73.2,1,4
+STU0688,Kelly Reyes,Mathematics,Senior,4,Paid,71.0,9,65.9,3.7,0.5,57.3,1,5
+STU0689,Leon Lewis,Economics,Senior,12,Delayed,33.0,0,89.0,16.0,4.4,65.3,1,1
+STU0690,Daniel Romero,Mechanical Engineering,Senior,16,Paid,16.5,14,93.4,9.9,3.7,30.3,2,1
+STU0691,Kayla Conner,English Literature,Senior,10,Delayed,35.2,0,49.5,1.9,1.7,54.0,1,2
+STU0692,Shane Burns,Electrical Engineering,Freshman,7,Delayed,38.8,12,70.7,17.6,4.5,63.4,0,2
+STU0693,Sara Nguyen,Biology,Junior,17,Unpaid,10.6,10,100,13.3,1.6,41.3,4,0
+STU0694,Jenna Gilbert DDS,Computer Science,Junior,7,Paid,17.2,11,85.2,12.3,5.1,22.9,1,0
+STU0695,Juan Petty,Civil Engineering,Senior,17,Delayed,12.1,2,90.5,22.2,4.3,70.8,1,4
+STU0696,Bonnie Cabrera,Electrical Engineering,Senior,14,Delayed,42.5,15,66.6,4.5,4.8,92.2,0,2
+STU0697,Amy Estrada,Business Administration,Sophomore,11,Delayed,71.9,6,70.9,9.5,4.7,56.5,0,0
+STU0698,Richard Everett,Electrical Engineering,Freshman,2,Delayed,2.7,0,88.3,19.4,0,65.1,0,6
+STU0699,Derek Fernandez,Economics,Sophomore,16,Delayed,0,11,89.7,13.4,3.9,58.0,0,0
+STU0700,Jim Lopez,Civil Engineering,Senior,18,Paid,28.4,10,77.8,12.5,4.4,59.8,1,0
+STU0701,Cody Moore,Psychology,Sophomore,16,Paid,55.8,5,76.1,17.1,1.9,85.8,0,2
+STU0702,Katherine Payne,Business Administration,Senior,8,Paid,0,10,100,14.8,5.3,60.4,4,6
+STU0703,Daniel Diaz,Biology,Sophomore,7,Paid,52.6,10,100,16.6,3.4,54.3,1,2
+STU0704,Julie Burgess,Computer Science,Junior,2,Paid,0,8,81.8,17.6,4.1,71.1,1,0
+STU0705,Frederick Espinoza,Computer Science,Freshman,12,Delayed,40.2,12,79.4,19.4,1.2,40.4,0,1
+STU0706,Adam Davis,Economics,Sophomore,15,Delayed,37.0,13,74.9,17.7,8.8,40.1,2,2
+STU0707,Michele Li,Psychology,Sophomore,3,Paid,3.1,3,72.0,14.8,7.3,87.0,0,2
+STU0708,Peter Martin,Psychology,Freshman,12,Paid,0,17,81.0,9.4,8.0,72.3,2,0
+STU0709,Robert Henderson,English Literature,Senior,9,Delayed,50.7,5,72.9,9.2,5.6,66.5,2,1
+STU0710,Roy Jackson,English Literature,Sophomore,12,Delayed,53.6,15,92.9,17.7,4.2,59.6,1,7
+STU0711,Walter Lewis,Business Administration,Freshman,19,Paid,65.6,12,56.8,8.9,1.5,74.9,0,4
+STU0712,William Henderson,Psychology,Junior,14,Paid,2.3,6,100,9.4,1.1,50.4,2,1
+STU0713,Scott Bush,Mechanical Engineering,Freshman,2,Delayed,49.7,18,80.2,8.9,1.8,46.3,2,2
+STU0714,Lori Alexander,Civil Engineering,Freshman,10,Delayed,36.8,8,68.3,12.2,1.1,72.9,0,10
+STU0715,Lisa Davis,Computer Science,Freshman,18,Paid,51.5,9,60.4,20.9,3.5,100,2,4
+STU0716,Nancy Wilson,English Literature,Freshman,18,Paid,30.1,8,75.3,17.0,3.0,66.4,1,0
+STU0717,Miguel Dean,English Literature,Junior,12,Paid,34.3,0,94.4,12.7,5.4,97.1,1,1
+STU0718,Christopher Davidson,Mechanical Engineering,Senior,2,Delayed,41.3,0,80.2,11.6,3.2,59.7,0,1
+STU0719,Travis Bird,Computer Science,Junior,6,Unpaid,33.0,4,75.0,14.5,2.2,66.9,0,0
+STU0720,Wesley Wong,Computer Science,Freshman,9,Delayed,32.7,0,58.6,17.5,0.5,84.7,2,9
+STU0721,Rachel Mitchell,Civil Engineering,Senior,18,Delayed,44.2,8,87.9,7.2,4.0,69.7,0,5
+STU0722,Adam Meyer,Computer Science,Senior,15,Paid,46.6,0,49.0,2.8,1.0,49.8,0,7
+STU0723,Sara Freeman,Electrical Engineering,Sophomore,16,Paid,7.3,13,84.4,15.1,2.7,36.0,0,6
+STU0724,Ricky Castro,Biology,Junior,13,Paid,33.0,12,87.2,13.0,2.7,87.3,3,0
+STU0725,Joy Franklin,Biology,Freshman,2,Paid,20.4,8,89.8,8.8,4.6,73.2,0,1
+STU0726,Tara Santiago,Economics,Sophomore,6,Delayed,14.0,2,66.9,12.5,5.3,93.3,1,7
+STU0727,David Fleming,Mechanical Engineering,Sophomore,11,Paid,18.4,12,64.4,14.5,1.2,41.3,0,2
+STU0728,Gregory Mckenzie,Economics,Senior,5,Paid,45.2,11,83.1,12.9,1.0,56.3,2,5
+STU0729,Kerri Garcia,Business Administration,Senior,13,Paid,44.5,4,79.7,14.1,5.4,61.3,2,1
+STU0730,Andrew Lawrence,Business Administration,Senior,14,Paid,54.6,10,57.3,21.8,6.7,66.9,0,0
+STU0731,Thomas Elliott,Biology,Senior,4,Paid,44.6,5,70.3,12.6,5.9,84.1,3,0
+STU0732,Matthew Andrews,Civil Engineering,Sophomore,7,Paid,0,0,58.9,11.0,5.0,64.9,0,3
+STU0733,John Johnson,Business Administration,Senior,7,Unpaid,59.9,8,100,15.7,4.9,56.6,0,1
+STU0734,Brandy Garcia,Civil Engineering,Junior,6,Paid,55.2,11,58.4,12.5,5.2,72.6,2,2
+STU0735,Joseph Scott,Electrical Engineering,Senior,20,Paid,13.0,8,64.0,0,7.6,46.4,1,2
+STU0736,Nicole Jones,Civil Engineering,Junior,9,Paid,57.4,2,73.9,15.3,0.9,86.8,2,4
+STU0737,Barbara Maynard,Economics,Sophomore,2,Delayed,3.1,8,85.3,23.9,0.7,52.9,1,14
+STU0738,Michelle Parker,Electrical Engineering,Freshman,19,Paid,2.1,6,51.0,17.8,3.5,57.5,2,0
+STU0739,Frank Mosley,Mathematics,Sophomore,18,Paid,95.4,14,74.3,9.6,2.7,68.6,0,8
+STU0740,Jennifer Palmer,Computer Science,Freshman,2,Delayed,42.6,9,86.7,9.3,5.1,85.9,2,4
+STU0741,Jennifer Burns,Civil Engineering,Senior,11,Paid,95.8,6,88.3,18.6,3.9,79.4,0,0
+STU0742,Jessica Mack,Business Administration,Junior,18,Paid,0,5,72.6,18.5,3.2,77.3,0,2
+STU0743,Leslie Webb,Business Administration,Freshman,11,Paid,7.6,10,100,9.4,6.3,69.1,0,0
+STU0744,Tony Cruz,Electrical Engineering,Senior,10,Paid,8.0,11,69.6,20.9,0.5,62.4,0,2
+STU0745,John Taylor,Electrical Engineering,Junior,20,Paid,0,8,57.2,8.9,0.4,59.2,1,0
+STU0746,Joseph Adams,Civil Engineering,Senior,18,Paid,25.5,6,100,10.8,5.3,38.3,2,4
+STU0747,Nicolas Johnson,Biology,Senior,20,Unpaid,48.1,7,72.8,11.1,3.6,50.5,0,10
+STU0748,Kelly Ashley,Psychology,Junior,8,Paid,23.1,1,89.4,14.7,3.9,71.5,2,5
+STU0749,Jacob Robinson,Electrical Engineering,Senior,16,Paid,78.6,4,90.9,5.0,4.9,74.4,0,0
+STU0750,Christopher Sullivan,Computer Science,Sophomore,7,Paid,28.9,19,72.5,0,2.3,92.9,1,0
+STU0751,Brian Fritz,English Literature,Freshman,7,Delayed,71.9,2,67.0,15.4,0.4,76.4,0,4
+STU0752,Aaron Gonzalez,Electrical Engineering,Senior,10,Delayed,0.2,0,57.4,8.5,4.0,90.1,4,0
+STU0753,Robert Warren,Mechanical Engineering,Junior,17,Paid,40.4,5,51.8,20.5,3.8,71.2,0,3
+STU0754,Angela Jackson,Mathematics,Senior,7,Delayed,35.0,1,93.8,8.8,0,66.1,1,3
+STU0755,Colleen Wilkinson,Computer Science,Sophomore,10,Paid,19.4,12,50.5,15.7,0.6,76.4,0,4
+STU0756,Kristina Lam,Biology,Senior,8,Paid,38.1,8,74.7,15.7,3.5,62.1,1,0
+STU0757,Amanda Choi,English Literature,Junior,8,Paid,28.2,13,100,14.0,3.5,86.4,0,3
+STU0758,Melissa Randall,Electrical Engineering,Junior,5,Paid,0,11,74.5,22.3,3.8,80.7,3,0
+STU0759,Taylor Krueger,Business Administration,Sophomore,5,Paid,22.5,16,65.5,24.5,0,44.5,0,7
+STU0760,Tracy Santos,Mathematics,Sophomore,7,Paid,26.1,20,81.0,2.5,4.9,60.3,4,2
+STU0761,Amber Davis,Mechanical Engineering,Junior,5,Paid,39.1,22,59.7,12.3,1.5,100,0,12
+STU0762,Diana Smith,Psychology,Senior,12,Delayed,57.3,16,69.4,22.3,4.3,86.5,0,6
+STU0763,Amanda Middleton,Electrical Engineering,Freshman,17,Paid,62.2,0,71.3,7.2,9.2,89.2,1,7
+STU0764,Michael Payne,Mathematics,Junior,2,Paid,0,14,49.6,14.3,2.9,58.7,0,0
+STU0765,Kellie Fernandez,Biology,Freshman,16,Paid,0,6,76.8,3.1,0.7,77.9,1,8
+STU0766,Anthony Bell MD,Civil Engineering,Senior,11,Paid,40.1,9,89.4,10.0,4.6,73.4,2,0
+STU0767,David Smith,Biology,Sophomore,4,Paid,22.0,29,81.7,4.4,3.4,80.7,2,0
+STU0768,Brandon Leonard,Mathematics,Freshman,17,Paid,0,12,68.4,13.3,3.6,72.2,0,3
+STU0769,David Hansen,Civil Engineering,Senior,15,Delayed,21.0,8,95.7,14.5,3.2,73.1,1,4
+STU0770,Gabrielle Ramirez,Biology,Senior,11,Paid,9.2,9,80.5,13.3,1.4,87.7,1,0
+STU0771,Caroline Davis,Civil Engineering,Freshman,12,Paid,24.3,8,60.7,9.0,1.7,65.1,1,0
+STU0772,Paul Anderson,Economics,Sophomore,9,Paid,2.8,12,71.5,15.0,4.3,92.7,1,6
+STU0773,Shari Maxwell,Computer Science,Senior,8,Delayed,23.2,6,42.2,26.4,3.0,42.4,0,4
+STU0774,Kara Steele,Mathematics,Junior,4,Unpaid,0,13,83.2,2.7,3.0,99.9,1,16
+STU0775,Erica Simpson,Biology,Freshman,17,Paid,0,6,100,15.8,4.7,82.7,0,0
+STU0776,Aaron Gray,Economics,Junior,20,Paid,7.0,2,100,13.7,3.5,61.6,0,0
+STU0777,Kathleen Barnes,Biology,Freshman,10,Unpaid,24.7,15,85.8,14.4,1.7,63.3,0,0
+STU0778,Kayla Kelly,Business Administration,Senior,13,Delayed,25.2,3,85.6,5.9,7.2,63.4,0,2
+STU0779,Leslie Santos,Economics,Junior,2,Paid,22.7,6,100,18.6,0,50.3,1,0
+STU0780,James Sanchez,Economics,Sophomore,8,Paid,48.5,0,89.4,14.8,2.8,74.1,0,4
+STU0781,Michael Frazier,Economics,Sophomore,5,Delayed,46.4,3,95.9,9.3,1.1,100,0,0
+STU0782,Elizabeth Schmidt,Mechanical Engineering,Freshman,7,Unpaid,13.7,1,80.5,14.3,6.3,71.7,0,9
+STU0783,Grace Doyle,Mathematics,Junior,18,Paid,51.1,11,68.9,4.6,2.3,77.8,0,1
+STU0784,Leslie Sanchez,English Literature,Senior,13,Paid,55.9,20,61.4,9.7,6.8,69.1,2,3
+STU0785,Tom Lawson,Computer Science,Senior,19,Unpaid,57.5,17,60.5,11.9,5.0,77.2,1,0
+STU0786,Mary Wilson,Mathematics,Junior,17,Delayed,51.2,12,78.4,18.9,5.1,46.1,0,1
+STU0787,Louis Collins,Mathematics,Sophomore,13,Paid,83.3,12,68.3,3.8,6.6,93.0,4,0
+STU0788,David Wallace,Business Administration,Senior,9,Paid,78.0,0,80.5,11.1,7.0,43.6,0,0
+STU0789,Chris Schultz,English Literature,Sophomore,10,Paid,50.2,20,97.2,10.0,1.0,48.7,0,0
+STU0790,Kevin Davis,Civil Engineering,Senior,15,Unpaid,59.4,13,91.0,6.5,0,67.8,0,5
+STU0791,Jill Jones,English Literature,Junior,19,Paid,49.9,2,80.8,16.9,2.1,67.2,0,0
+STU0792,Donald Hammond,Mathematics,Junior,20,Paid,0,0,57.6,8.5,1.5,19.4,1,5
+STU0793,Sandra King,Mathematics,Sophomore,15,Paid,0,0,87.6,8.1,2.8,94.1,1,3
+STU0794,Jennifer Phillips,Mechanical Engineering,Sophomore,19,Paid,16.2,12,74.0,18.2,0,66.8,2,0
+STU0795,Christopher Salazar,Civil Engineering,Senior,11,Paid,0,10,76.8,13.6,3.4,56.0,1,1
+STU0796,Daniel Lyons,English Literature,Senior,19,Paid,0,0,76.3,8.1,1.4,54.2,2,9
+STU0797,Olivia Powell,Biology,Freshman,2,Delayed,56.3,4,84.8,15.1,4.7,54.3,1,4
+STU0798,Mary Martin,Mathematics,Junior,8,Paid,59.6,18,60.3,6.6,1.7,59.1,2,2
+STU0799,James Guzman,Biology,Junior,3,Delayed,49.4,0,74.7,7.4,4.9,70.9,1,2
+STU0800,Jennifer Jensen,English Literature,Freshman,17,Unpaid,46.3,10,96.6,6.0,2.8,27.5,0,9
+STU0801,Joshua Arellano,Business Administration,Junior,11,Paid,33.1,3,77.7,17.3,4.6,89.2,0,0
+STU0802,Hannah Nielsen,Economics,Junior,15,Delayed,13.7,4,58.5,18.9,1.5,21.8,3,2
+STU0803,Jordan Johnson,Civil Engineering,Junior,19,Unpaid,72.1,19,100,5.1,0,47.6,0,0
+STU0804,Christie Jackson,English Literature,Senior,17,Paid,70.2,0,87.6,9.3,1.2,83.0,0,0
+STU0805,Kevin Wallace,Mathematics,Freshman,3,Unpaid,0,0,61.1,10.2,7.0,89.8,1,8
+STU0806,Jonathan Brown,Economics,Junior,17,Paid,68.1,1,61.2,18.3,2.0,73.9,2,0
+STU0807,Andrew Carlson,Psychology,Junior,5,Paid,34.3,8,72.6,8.1,0.3,69.1,0,9
+STU0808,Edward Gutierrez,English Literature,Senior,8,Delayed,17.6,14,67.4,15.5,5.8,48.0,2,2
+STU0809,Miss Kimberly Calderon,English Literature,Sophomore,20,Paid,45.4,11,100,6.8,3.7,52.1,0,6
+STU0810,Donna Ortega,Psychology,Junior,17,Paid,30.3,6,91.8,15.3,3.6,77.0,2,5
+STU0811,Katie Decker,Mathematics,Sophomore,5,Paid,19.4,2,100,6.5,3.9,70.7,1,0
+STU0812,James Walker,Psychology,Freshman,19,Paid,31.4,13,59.7,9.2,6.4,41.9,0,5
+STU0813,Jeffrey Dean,Economics,Senior,5,Paid,20.6,1,99.3,13.3,5.4,69.1,0,5
+STU0814,Sarah Mcbride,Mathematics,Senior,9,Paid,29.1,3,86.7,20.9,4.1,75.2,1,0
+STU0815,Jamie Boyer,Business Administration,Junior,3,Paid,0,3,65.9,0,2.2,69.5,0,3
+STU0816,Alyssa Young,English Literature,Senior,20,Paid,19.1,8,80.7,9.3,1.2,79.3,2,4
+STU0817,Luke Kennedy,Biology,Freshman,13,Paid,17.3,1,100,5.5,4.2,87.1,2,4
+STU0818,Jessica Lopez,Mathematics,Freshman,8,Paid,0,18,14.2,7.8,1.3,46.6,1,0
+STU0819,Bradley Garcia,Economics,Senior,17,Delayed,38.6,2,69.9,13.3,2.8,68.2,1,6
+STU0820,Bryce Guzman,Psychology,Senior,3,Paid,41.0,2,74.8,16.1,1.7,69.4,1,2
+STU0821,Wendy Sims,Mathematics,Sophomore,6,Delayed,14.0,11,75.8,11.7,10.1,97.0,2,2
+STU0822,Frank Merritt,Mathematics,Freshman,17,Paid,47.9,8,100,13.9,2.3,24.4,0,5
+STU0823,Austin Peterson,Mechanical Engineering,Sophomore,17,Paid,49.4,4,66.2,9.5,1.1,79.3,1,9
+STU0824,Mark Garcia,Mathematics,Sophomore,2,Paid,26.7,10,49.8,21.0,0.8,46.7,0,3
+STU0825,Robert Sawyer,Electrical Engineering,Junior,14,Paid,53.8,6,83.9,22.3,1.5,49.7,2,10
+STU0826,Karla Wheeler,Economics,Freshman,17,Delayed,30.0,9,94.0,9.5,2.9,80.6,1,0
+STU0827,Gregory Hernandez,Mechanical Engineering,Junior,17,Paid,55.4,17,53.3,9.4,1.3,78.6,0,4
+STU0828,Scott Garcia,Mathematics,Sophomore,14,Paid,61.2,15,70.1,14.2,5.2,63.8,2,3
+STU0829,Dr. Jessica Valentine MD,Business Administration,Freshman,6,Paid,2.3,14,71.2,11.2,2.8,58.3,0,0
+STU0830,Jenny Frey,Mathematics,Junior,10,Delayed,49.9,10,67.9,15.9,0,70.0,1,0
+STU0831,Antonio Alvarez,Economics,Senior,7,Delayed,45.2,19,76.3,12.7,3.2,74.9,1,9
+STU0832,Yolanda Russell,Biology,Freshman,10,Unpaid,56.0,0,100,14.0,4.8,43.2,0,1
+STU0833,Barry Marquez,English Literature,Senior,2,Delayed,0,12,53.6,9.1,1.3,45.8,0,0
+STU0834,Jessica Bell,Computer Science,Freshman,3,Delayed,0,14,62.4,13.1,0,78.2,1,7
+STU0835,Scott Morrison,Mechanical Engineering,Junior,13,Delayed,0,2,72.9,0,0,73.2,0,2
+STU0836,Deanna Solis,Business Administration,Freshman,10,Paid,61.5,11,81.3,20.4,5.9,57.6,0,11
+STU0837,Melissa Diaz,Biology,Freshman,17,Paid,17.4,13,99.7,14.0,3.8,64.0,0,0
+STU0838,Jennifer Schultz,Electrical Engineering,Freshman,2,Delayed,49.9,16,58.7,17.1,3.0,83.7,0,3
+STU0839,Lisa Flores,English Literature,Senior,10,Paid,32.9,9,100,0.1,3.9,100,1,0
+STU0840,Sharon Collins,Electrical Engineering,Junior,12,Unpaid,65.9,10,52.7,8.3,6.5,61.4,1,0
+STU0841,Lisa White,Computer Science,Junior,18,Paid,31.7,13,77.5,1.5,3.1,78.3,0,1
+STU0842,Andrew Lynch,Civil Engineering,Junior,6,Paid,64.8,13,100,0,0,47.1,0,2
+STU0843,Donna Rodgers,Business Administration,Sophomore,2,Delayed,27.7,4,68.1,16.6,2.8,58.3,1,3
+STU0844,Christine Randolph,Mathematics,Sophomore,14,Delayed,0.3,1,87.8,20.6,2.2,48.2,2,0
+STU0845,Jessica Howard,Mathematics,Senior,5,Paid,10.6,13,83.4,0.7,3.4,57.7,3,2
+STU0846,Tiffany Collins,Computer Science,Senior,19,Paid,10.1,5,62.8,8.7,1.7,75.8,0,0
+STU0847,Danielle Lowery,Biology,Sophomore,5,Delayed,41.5,9,95.5,0,2.7,69.1,1,0
+STU0848,Gail Flores,Business Administration,Sophomore,15,Paid,0,17,75.8,21.3,6.9,53.0,1,5
+STU0849,Margaret Guerrero,Business Administration,Senior,6,Paid,60.9,7,58.7,7.2,3.4,80.7,0,2
+STU0850,Jeff Murray,Civil Engineering,Senior,11,Paid,61.8,16,86.7,18.1,3.7,46.6,0,0
+STU0851,Brian Watson,Civil Engineering,Freshman,13,Delayed,0,0,78.2,9.7,7.2,71.8,2,9
+STU0852,Jessica Frazier,Electrical Engineering,Junior,3,Paid,22.8,5,55.8,3.3,2.7,77.3,2,6
+STU0853,Laura Howard,Business Administration,Freshman,14,Unpaid,57.0,2,85.7,16.4,6.0,38.5,0,0
+STU0854,Jasmine Bell,Biology,Freshman,10,Paid,0.6,3,94.2,14.9,1.1,74.3,0,5
+STU0855,John Ward,Business Administration,Freshman,7,Paid,7.3,5,62.9,14.0,0.9,100,0,4
+STU0856,Larry Shields,Mechanical Engineering,Freshman,12,Paid,0,2,74.3,19.1,2.7,69.1,1,8
+STU0857,William Mcguire,Mechanical Engineering,Sophomore,8,Delayed,0,10,74.5,10.0,2.1,60.0,0,0
+STU0858,Gary Green,Mechanical Engineering,Senior,10,Paid,65.1,4,52.2,10.1,3.1,57.6,3,0
+STU0859,Sean Mckinney,Economics,Junior,13,Paid,47.5,7,89.1,5.1,1.7,65.7,0,0
+STU0860,Daniel Miller,Psychology,Junior,12,Paid,51.5,14,74.3,13.7,1.8,38.1,2,3
+STU0861,Michael Mcconnell,English Literature,Freshman,5,Paid,27.2,13,55.5,11.0,2.5,59.6,0,10
+STU0862,Kimberly Garcia,Mechanical Engineering,Junior,6,Unpaid,39.3,8,82.1,8.0,3.5,76.1,0,0
+STU0863,Kelli Williamson,Mechanical Engineering,Senior,13,Delayed,46.0,9,72.2,0,3.7,61.1,0,3
+STU0864,Brian Barnes,Psychology,Junior,14,Unpaid,0,8,64.0,17.0,4.4,74.4,1,0
+STU0865,Zachary Velez,Business Administration,Senior,12,Delayed,54.9,8,62.9,11.0,5.8,52.9,2,7
+STU0866,Andrea Lawrence,English Literature,Freshman,12,Unpaid,38.3,6,99.3,9.8,3.5,63.4,0,5
+STU0867,Jasmine Taylor,Mechanical Engineering,Freshman,13,Paid,17.0,13,37.0,6.4,3.8,55.0,2,2
+STU0868,Kristina Johnson,Mechanical Engineering,Sophomore,2,Paid,0,14,57.8,12.9,6.3,75.3,0,0
+STU0869,Donna Nielsen,Electrical Engineering,Senior,20,Paid,79.4,10,66.2,7.5,8.4,76.3,2,2
+STU0870,Sandra Alexander,Economics,Freshman,16,Paid,3.4,9,70.2,9.8,6.8,58.9,3,4
+STU0871,Jennifer Hernandez,Biology,Freshman,3,Paid,43.3,9,62.1,4.8,2.3,57.7,0,1
+STU0872,Victoria Martin,Mechanical Engineering,Junior,20,Paid,0,0,70.5,3.0,0.1,53.3,2,3
+STU0873,Anthony Chavez,English Literature,Freshman,9,Paid,53.7,1,69.9,8.7,9.0,26.7,0,0
+STU0874,Samantha Alexander,Electrical Engineering,Senior,16,Paid,40.2,13,97.8,13.6,4.1,15.2,1,6
+STU0875,Rachel Mitchell,Psychology,Junior,3,Unpaid,0,7,48.4,13.0,2.9,73.2,0,0
+STU0876,Rebecca Jordan,English Literature,Freshman,13,Delayed,65.0,16,93.1,24.2,4.6,100,0,4
+STU0877,Patrick Warren,Mechanical Engineering,Freshman,2,Delayed,10.5,10,85.5,6.9,2.1,78.9,3,0
+STU0878,Frank Hines,Psychology,Sophomore,13,Paid,2.0,4,100,9.0,0,95.7,0,4
+STU0879,Amanda Garcia,Biology,Freshman,18,Delayed,5.1,4,78.0,17.3,0.8,93.5,2,0
+STU0880,Billy Myers,Electrical Engineering,Senior,9,Delayed,0,0,79.1,5.7,4.7,88.6,0,9
+STU0881,Zachary Richardson,Mathematics,Sophomore,17,Paid,54.4,10,78.8,13.7,0,65.9,0,4
+STU0882,Destiny Robinson,Mathematics,Junior,14,Unpaid,57.0,8,78.5,14.8,0,59.2,1,1
+STU0883,Brandon Ryan,Business Administration,Freshman,2,Paid,22.8,2,49.5,11.6,7.1,83.7,0,6
+STU0884,Joshua Norris,Psychology,Freshman,15,Paid,41.1,16,63.8,2.0,5.6,100,4,2
+STU0885,Gregory Bowers,Electrical Engineering,Senior,4,Delayed,29.6,0,69.3,24.4,3.6,72.6,0,0
+STU0886,Chase Tran,Computer Science,Freshman,17,Paid,19.2,5,92.8,8.5,8.5,67.8,0,5
+STU0887,Jeanette Chapman,Psychology,Sophomore,20,Unpaid,0,12,57.8,9.6,1.5,57.1,0,3
+STU0888,Corey Wolf,Mechanical Engineering,Senior,9,Paid,0,0,100,4.6,2.8,34.8,3,4
+STU0889,Kara Blankenship,Economics,Junior,18,Paid,12.3,6,65.1,14.4,0.6,28.2,0,0
+STU0890,Lisa Mitchell,Civil Engineering,Junior,2,Delayed,22.9,15,100,15.0,0,62.4,0,7
+STU0891,Ms. Virginia Reed,Civil Engineering,Senior,19,Paid,25.1,1,68.7,14.4,4.2,48.1,0,2
+STU0892,Michelle Wells,English Literature,Sophomore,20,Paid,43.6,18,88.4,12.5,3.9,71.8,0,1
+STU0893,Sylvia Hernandez,Economics,Sophomore,15,Paid,11.9,3,81.6,15.8,3.9,90.8,0,0
+STU0894,Steve Rush,Psychology,Sophomore,3,Paid,17.3,0,71.6,13.4,2.3,58.6,1,3
+STU0895,Christine Martinez,Biology,Freshman,11,Paid,25.6,3,77.5,6.8,1.4,79.4,0,0
+STU0896,Samantha Jones,Computer Science,Sophomore,9,Unpaid,17.7,19,83.4,5.3,3.9,65.7,1,6
+STU0897,Edwin Mata,Psychology,Sophomore,2,Unpaid,17.6,8,81.9,7.0,2.7,81.6,2,7
+STU0898,Sandra Howe,Civil Engineering,Senior,8,Paid,25.7,10,66.6,13.3,2.7,92.1,3,2
+STU0899,Jeffrey Walter,Psychology,Senior,19,Delayed,0.2,18,65.8,13.1,6.1,44.9,0,5
+STU0900,Teresa Smith,Civil Engineering,Freshman,2,Paid,11.7,14,100,5.8,5.8,61.0,1,0
+STU0901,Mrs. Lori Flores,Civil Engineering,Freshman,15,Unpaid,24.2,13,77.5,14.9,0,47.8,0,0
+STU0902,William Massey,Biology,Sophomore,12,Paid,34.8,9,71.5,10.2,0.8,89.5,1,1
+STU0903,Kimberly Gilbert,Civil Engineering,Freshman,13,Delayed,17.7,12,71.4,17.1,0,63.3,0,4
+STU0904,Ryan Johnston,Civil Engineering,Sophomore,4,Paid,41.2,9,82.2,16.7,0,61.3,0,6
+STU0905,Michael Vaughn Jr.,Mechanical Engineering,Senior,8,Paid,25.1,18,50.6,3.0,4.6,52.8,3,9
+STU0906,Shelly Harris,Mathematics,Freshman,8,Paid,39.2,5,98.0,8.4,3.1,63.6,2,4
+STU0907,Kristen Warren,Civil Engineering,Senior,11,Paid,0,0,86.4,16.3,6.8,69.3,1,2
+STU0908,Kimberly Hines,Computer Science,Senior,14,Unpaid,79.1,14,80.8,6.4,3.4,55.1,0,0
+STU0909,Stacie Cobb,English Literature,Freshman,3,Paid,38.7,16,43.4,9.8,5.7,47.3,1,0
+STU0910,Timothy Williams,Electrical Engineering,Junior,16,Unpaid,50.8,0,83.3,6.4,1.2,66.4,0,1
+STU0911,Kaitlyn Dillon,Business Administration,Junior,13,Unpaid,73.9,24,56.8,13.2,2.4,52.1,0,7
+STU0912,Bryan Sexton,Mathematics,Freshman,12,Unpaid,96.8,11,43.7,10.4,2.5,76.8,1,7
+STU0913,Tina Baker,Economics,Sophomore,16,Delayed,30.9,13,44.2,9.6,4.2,97.6,2,10
+STU0914,Darius Clark,Mathematics,Senior,11,Paid,40.7,5,86.9,12.3,3.8,62.0,1,0
+STU0915,Mrs. Melinda Martinez,Computer Science,Senior,14,Paid,0,17,39.8,16.4,6.2,44.6,2,0
+STU0916,Kelsey Bell,Mechanical Engineering,Senior,3,Paid,75.9,13,55.1,2.1,6.6,77.5,0,5
+STU0917,Robert Day,Mathematics,Sophomore,12,Paid,113.5,19,79.7,4.4,4.9,66.8,5,2
+STU0918,Meredith Turner,Business Administration,Sophomore,14,Delayed,4.4,0,79.3,4.8,4.6,61.4,0,1
+STU0919,Jeffrey Henderson,Psychology,Freshman,12,Delayed,14.4,12,100,12.5,1.3,55.9,2,5
+STU0920,Jeffrey Davis,Psychology,Freshman,13,Paid,55.5,10,68.4,14.6,3.8,97.1,0,0
+STU0921,Jacob Lewis,Psychology,Senior,4,Unpaid,0,0,81.6,0,0,75.4,1,5
+STU0922,Linda Saunders,Electrical Engineering,Junior,11,Paid,0,7,89.6,5.5,3.7,89.5,2,0
+STU0923,Deborah Stewart,Electrical Engineering,Senior,9,Paid,29.2,8,87.5,3.3,1.5,37.9,0,7
+STU0924,Monique Aguirre,Psychology,Senior,9,Delayed,0,15,83.7,16.9,0.3,71.8,0,1
+STU0925,Erin Davis,Mathematics,Freshman,10,Delayed,37.4,9,88.4,12.1,2.9,61.8,4,0
+STU0926,Derrick Miller,Mathematics,Senior,11,Paid,24.6,2,100,12.1,3.1,65.8,0,2
+STU0927,Nathan Perez,Mechanical Engineering,Freshman,10,Paid,22.8,10,48.7,5.2,5.8,100,2,4
+STU0928,Jared Skinner,Mechanical Engineering,Junior,18,Paid,56.0,6,81.2,18.3,5.0,46.0,0,9
+STU0929,Donald Woodward,English Literature,Senior,18,Paid,44.1,4,88.3,15.0,5.9,71.1,0,5
+STU0930,Donna Davis,Civil Engineering,Sophomore,2,Paid,0,8,48.9,14.8,1.4,73.6,0,2
+STU0931,Roy Strickland,Business Administration,Sophomore,7,Unpaid,59.6,15,71.0,6.3,0,73.6,1,1
+STU0932,Robert Hodges,Business Administration,Sophomore,16,Paid,44.8,18,55.6,15.2,6.4,78.7,0,3
+STU0933,Kayla Garner,English Literature,Freshman,5,Unpaid,30.8,14,86.7,10.4,3.8,26.5,2,4
+STU0934,Bryan Jennings,Economics,Sophomore,2,Unpaid,43.2,13,60.0,15.1,2.2,49.0,0,2
+STU0935,Anthony Glenn,Computer Science,Senior,19,Paid,12.9,9,70.6,21.3,5.1,59.7,2,0
+STU0936,Gabriel Ray,Civil Engineering,Junior,11,Delayed,30.8,8,70.7,18.7,4.1,65.1,0,0
+STU0937,Darrell Mendez,Biology,Sophomore,12,Paid,17.5,8,85.1,11.0,2.3,62.0,0,9
+STU0938,Michael Lozano,English Literature,Sophomore,19,Delayed,9.9,3,88.5,20.6,1.3,62.4,0,5
+STU0939,Denise Castillo,Civil Engineering,Junior,12,Delayed,42.2,8,98.7,21.8,2.4,45.5,0,1
+STU0940,Joseph Robbins,Business Administration,Junior,18,Paid,26.8,8,80.7,13.5,0,74.1,1,6
+STU0941,Pamela Anderson,Psychology,Senior,11,Paid,14.6,1,100,19.8,0.2,93.2,3,0
+STU0942,Jennifer White,Electrical Engineering,Junior,3,Paid,46.3,23,98.4,0.5,5.6,63.8,1,5
+STU0943,Lisa Powell,Mathematics,Senior,2,Paid,63.2,0,77.5,16.7,9.9,40.0,0,7
+STU0944,Adrienne Hansen,Civil Engineering,Sophomore,15,Paid,0,10,71.9,28.4,0.5,50.0,0,6
+STU0945,Stephen Baird,Computer Science,Sophomore,20,Unpaid,20.6,15,79.6,21.9,3.8,68.7,1,4
+STU0946,Erik Anderson,Business Administration,Freshman,15,Unpaid,4.0,14,71.5,22.7,3.5,37.9,0,9
+STU0947,Anthony Smith,Biology,Senior,10,Paid,29.6,10,65.5,5.9,1.9,61.9,0,3
+STU0948,Jill Williams,Psychology,Junior,13,Delayed,41.6,11,83.7,16.7,0.4,69.6,2,0
+STU0949,Linda Vasquez,Mechanical Engineering,Freshman,10,Unpaid,54.1,16,65.9,12.6,1.8,53.3,0,3

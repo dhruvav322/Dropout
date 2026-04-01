@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: var(--spacing-8);
+  margin-bottom: var(--spacing-6);
 }
 
 .student-page__profile-left {
@@ -21,17 +21,59 @@
   align-items: flex-start;
 }
 
+/* ---- Gender-aware Avatar ---- */
 .student-page__avatar {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 88px;
+  height: 88px;
   border-radius: var(--radius-xl);
-  background: var(--surface-container-high);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--on-surface-variant);
   flex-shrink: 0;
+  overflow: visible;
+}
+
+.student-page__avatar--male {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  color: #1e40af;
+}
+
+.student-page__avatar--female {
+  background: linear-gradient(135deg, #fce7f3, #f9a8d4);
+  color: #9d174d;
+}
+
+.student-page__initials {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  z-index: 1;
+}
+
+.student-page__gender-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-size: 16px !important;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.student-page__avatar--male .student-page__gender-icon {
+  background: #1e40af;
+  color: white;
+}
+
+.student-page__avatar--female .student-page__gender-icon {
+  background: #9d174d;
+  color: white;
 }
 
 .student-page__avatar .risk-badge {
@@ -66,6 +108,10 @@
   border-radius: var(--radius-md);
 }
 
+.student-page__meta-chip--gender {
+  background: var(--surface-container-high);
+}
+
 .student-page__score-block {
   text-align: right;
 }
@@ -84,6 +130,51 @@
   opacity: 0.5;
 }
 
+/* ---- Quick Stats Row ---- */
+.student-page__quick-stats {
+  display: flex;
+  gap: var(--spacing-4);
+  margin-bottom: var(--spacing-8);
+  flex-wrap: wrap;
+}
+
+.quick-stat {
+  flex: 1;
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  background: var(--surface-container-lowest);
+  border: 1px solid rgba(198, 198, 205, 0.15);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-4) var(--spacing-5);
+}
+
+.quick-stat > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-stat__value {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--on-surface);
+}
+
+.quick-stat__value--warn {
+  color: var(--error);
+}
+
+.quick-stat__label {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--on-surface-variant);
+}
+
+/* ---- Tabs ---- */
 .student-page__tabs {
   display: flex;
   border-bottom: 1px solid var(--surface-container);
@@ -114,4 +205,25 @@
 
 .student-page__interventions {
   margin-top: var(--spacing-8);
+}
+
+/* ---- Intervention Toast ---- */
+.intervention-toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  background: var(--on-surface);
+  color: var(--surface-container-lowest);
+  padding: var(--spacing-4) var(--spacing-6);
+  border-radius: var(--radius-xl);
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  white-space: nowrap;
+  max-width: 90vw;
 }

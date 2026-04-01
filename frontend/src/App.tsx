@@ -7,6 +7,7 @@ import UploadPage from './pages/UploadPage';
 import StudentPage from './pages/StudentPage';
 import AdminPage from './pages/AdminPage';
 import { InstitutionProvider } from './context/InstitutionContext';
+import { SearchProvider } from './context/SearchContext';
 
 export default function App() {
   return (
@@ -20,19 +21,21 @@ export default function App() {
           path="*"
           element={
             <InstitutionProvider>
-              <div className="app-layout">
-                <Sidebar />
-                <Header />
-                <main className="main-content">
-                  <AnimatePresence mode="wait">
-                    <Routes>
-                      <Route path="/" element={<DashboardPage />} />
-                      <Route path="/upload" element={<UploadPage />} />
-                      <Route path="/student/:studentId" element={<StudentPage />} />
-                    </Routes>
-                  </AnimatePresence>
-                </main>
-              </div>
+              <SearchProvider>
+                <div className="app-layout">
+                  <Sidebar />
+                  <Header />
+                  <main className="main-content">
+                    <AnimatePresence mode="wait">
+                      <Routes>
+                        <Route path="/" element={<DashboardPage />} />
+                        <Route path="/upload" element={<UploadPage />} />
+                        <Route path="/student/:studentId" element={<StudentPage />} />
+                      </Routes>
+                    </AnimatePresence>
+                  </main>
+                </div>
+              </SearchProvider>
             </InstitutionProvider>
           }
         />

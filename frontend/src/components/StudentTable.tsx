@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import type { Student } from '../services/api';
+import { useSearch } from '../context/SearchContext';
 import './StudentTable.css';
 
 interface StudentTableProps {
@@ -50,14 +51,27 @@ function getPrimaryFactor(student: Student): { icon: string; label: string } {
 
 export default function StudentTable({ students, reportId }: StudentTableProps) {
   const navigate = useNavigate();
+  const { searchTerm } = useSearch();
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
 
-  const atRiskCount = students.filter(s => s.risk_tier !== 'Stable').length;
-  const totalPages = Math.ceil(students.length / itemsPerPage);
+  // Filter students based on search term
+  const filteredStudents = students.filter(s => {
+    if (!searchTerm) return true;
+    const term = searchTerm.toLowerCase();
+    return s.name.toLowerCase().includes(term) || s.student_id.toLowerCase().includes(term);
+  });
+
+  // Reset to page 1 when search term changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm]);
+
+  const atRiskCount = filteredStudents.filter(s => s.risk_tier !== 'Stable').length;
+  const totalPages = Math.max(1, Math.ceil(filteredStudents.length / itemsPerPage));
   
   const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentStudents = students.slice(startIndex, startIndex + itemsPerPage);
+  const currentStudents = filteredStudents.slice(startIndex, startIndex + itemsPerPage);
 
   const handleNext = () => {
     if (currentPage < totalPages) setCurrentPage(p => p + 1);
@@ -159,7 +173,9 @@ export default function StudentTable({ students, reportId }: StudentTableProps) 
 
       <div className="student-table__footer">
         <span className="label-xs">
-          Showing {startIndex + 1}-{Math.min(startIndex + itemsPerPage, students.length)} of {students.length} students ({atRiskCount} flagged At-Risk)
+          {filteredStudents.length === 0 ? 'No matching students' : (
+            `Showing ${startIndex + 1}-${Math.min(startIndex + itemsPerPage, filteredStudents.length)} of ${filteredStudents.length} students (${atRiskCount} flagged At-Risk)`
+          )}
         </span>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
           <button 

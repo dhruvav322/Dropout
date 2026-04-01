@@ -1,8 +1,10 @@
 import { useInstitution } from '../context/InstitutionContext';
+import { useSearch } from '../context/SearchContext';
 import './Header.css';
 
 export default function Header() {
   const { institution } = useInstitution();
+  const { searchTerm, setSearchTerm } = useSearch();
 
   return (
     <header className="top-header" id="top-header">
@@ -17,6 +19,8 @@ export default function Header() {
             type="text"
             placeholder="Search records..."
             id="search-input"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
         {institution && (

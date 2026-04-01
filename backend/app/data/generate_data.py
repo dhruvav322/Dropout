@@ -6,6 +6,8 @@ Produces ~200 students with literature-backed features for dropout prediction.
 import csv
 import os
 import random
+from faker import Faker
+
 fake = Faker()
 Faker.seed(42)
 random.seed(42)

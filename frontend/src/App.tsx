@@ -6,6 +6,7 @@ import DashboardPage from './pages/DashboardPage';
 import UploadPage from './pages/UploadPage';
 import StudentPage from './pages/StudentPage';
 import AdminPage from './pages/AdminPage';
+import { InstitutionProvider } from './context/InstitutionContext';
 
 export default function App() {
   return (
@@ -18,19 +19,21 @@ export default function App() {
         <Route
           path="*"
           element={
-            <div className="app-layout">
-              <Sidebar />
-              <Header institution="Riverdale College" />
-              <main className="main-content">
-                <AnimatePresence mode="wait">
-                  <Routes>
-                    <Route path="/" element={<DashboardPage />} />
-                    <Route path="/upload" element={<UploadPage />} />
-                    <Route path="/student/:studentId" element={<StudentPage />} />
-                  </Routes>
-                </AnimatePresence>
-              </main>
-            </div>
+            <InstitutionProvider>
+              <div className="app-layout">
+                <Sidebar />
+                <Header />
+                <main className="main-content">
+                  <AnimatePresence mode="wait">
+                    <Routes>
+                      <Route path="/" element={<DashboardPage />} />
+                      <Route path="/upload" element={<UploadPage />} />
+                      <Route path="/student/:studentId" element={<StudentPage />} />
+                    </Routes>
+                  </AnimatePresence>
+                </main>
+              </div>
+            </InstitutionProvider>
           }
         />
       </Routes>

@@ -33,7 +33,7 @@ def get_explainer():
 async def upload_csv(
     request: Request,
     file: UploadFile = File(...),
-    institution: str = Form(default="Riverdale College"),
+    institution: str = Form(default="My Institution"),
 ):
     """Upload a CSV file, run dropout prediction, return report."""
     client_ip = request.client.host if request.client else "unknown"

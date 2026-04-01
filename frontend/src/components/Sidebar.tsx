@@ -1,7 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import { useInstitution } from '../context/InstitutionContext';
 import './Sidebar.css';
 
 export default function Sidebar() {
+  const { institution } = useInstitution();
+
+  // Generate initials from institution name dynamically
+  const initials = institution
+    ? institution.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()
+    : 'DR';
+
   return (
     <aside className="sidebar" id="sidebar">
       <div className="sidebar__brand">
@@ -51,11 +59,11 @@ export default function Sidebar() {
 
       <div className="sidebar__user">
         <div className="avatar" style={{ background: 'var(--primary-container)', color: 'white' }}>
-          UA
+          {initials}
         </div>
         <div>
-          <p className="sidebar__user-name">University Admin</p>
-          <p className="sidebar__user-role">Lead Registrar</p>
+          <p className="sidebar__user-name">{institution || 'DropoutRadar'}</p>
+          <p className="sidebar__user-role">Retention Admin</p>
         </div>
       </div>
     </aside>

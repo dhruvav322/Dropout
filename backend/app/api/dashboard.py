@@ -4,6 +4,7 @@ Dashboard endpoint — returns scored students with risk tiers and summary stats
 
 from fastapi import APIRouter, HTTPException, Request
 from ..database import get_report, get_default_report_id, list_reports
+from ..security import validate_report_id
 from ..audit import log_event, AuditAction
 
 router = APIRouter()
@@ -12,6 +13,8 @@ router = APIRouter()
 @router.get("/dashboard/{report_id}")
 async def get_dashboard(report_id: str, request: Request):
     """Get full dashboard data for a report."""
+    if not validate_report_id(report_id):
+        raise HTTPException(status_code=400, detail="Invalid report ID format")
     report = get_report(report_id)
     if not report:
         raise HTTPException(status_code=404, detail="Report not found")

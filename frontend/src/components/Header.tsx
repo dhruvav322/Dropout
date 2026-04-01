@@ -1,10 +1,9 @@
+import { useInstitution } from '../context/InstitutionContext';
 import './Header.css';
 
-interface HeaderProps {
-  institution?: string;
-}
+export default function Header() {
+  const { institution } = useInstitution();
 
-export default function Header({ institution }: HeaderProps) {
   return (
     <header className="top-header" id="top-header">
       <div className="top-header__left">

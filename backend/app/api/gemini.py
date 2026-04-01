@@ -4,9 +4,11 @@ Uses real Gemini API when GEMINI_API_KEY is set, falls back to mock templates.
 """
 
 import os
+import re
 import random
 from fastapi import APIRouter, Request
 from ..schemas import CounselorNoteRequest, CounselorNoteResponse
+from ..security import sanitize_string
 from ..audit import log_event, AuditAction
 from ..logger import log
 
@@ -158,13 +160,30 @@ def _generate_mock_note(request: CounselorNoteRequest, primary_factor: str) -> s
 @router.post("/generate-note", response_model=CounselorNoteResponse)
 async def generate_counselor_note(request: CounselorNoteRequest, req: Request = None):
     """Generate a personalized AI counselor note based on risk factors."""
+    # Sanitize all user-supplied text before AI processing (anti-prompt-injection)
+    safe_name = sanitize_string(request.student_name)
+    safe_dept = sanitize_string(request.department or '')
+    safe_year = sanitize_string(request.year or '')
+    safe_intervention = sanitize_string(request.intervention_type)
+
+    # Strip anything that looks like a prompt override attempt
+    _injection_pattern = re.compile(r'(ignore|forget|disregard|override|system\s*prompt)', re.IGNORECASE)
+    safe_name = _injection_pattern.sub('', safe_name).strip() or 'Student'
+
     # Get the primary factor description
     primary_factor = ""
     if request.top_factors:
         factor = request.top_factors[0]
-        display_name = factor.get("display_name", factor.get("feature", "unknown factor"))
+        display_name = sanitize_string(factor.get("display_name", factor.get("feature", "unknown factor")))
         raw_value = factor.get("raw_value", "")
         primary_factor = f"{display_name} ({raw_value})"
+
+    # Build sanitized request copy for Gemini
+    # Override user-supplied fields with sanitized versions
+    request.student_name = safe_name
+    request.department = safe_dept
+    request.year = safe_year
+    request.intervention_type = safe_intervention
 
     # Try real Gemini first, fall back to mock
     generated_by = "Gemini Pro"
@@ -189,11 +208,11 @@ async def generate_counselor_note(request: CounselorNoteRequest, req: Request = 
     else:
         priority = "Low"
 
-    # Audit
+    # Audit (use sanitized name to prevent log injection)
     client_ip = req.client.host if req and req.client else "127.0.0.1"
     log_event(
         AuditAction.GENERATE_NOTE,
-        f"Note for {request.student_name} (risk: {request.risk_score}, tier: {request.risk_tier})",
+        f"Note for {safe_name} (risk: {request.risk_score}, tier: {request.risk_tier})",
         actor="counselor",
         ip_address=client_ip,
     )
@@ -201,6 +220,6 @@ async def generate_counselor_note(request: CounselorNoteRequest, req: Request = 
     return CounselorNoteResponse(
         note=note,
         priority=priority,
-        intervention_type=request.intervention_type,
+        intervention_type=safe_intervention,
         generated_by=generated_by,
     )

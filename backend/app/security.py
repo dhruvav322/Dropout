@@ -97,7 +97,22 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate"
         response.headers["Pragma"] = "no-cache"
-        response.headers["X-Powered-By"] = "DropoutRadar/1.0"
+        # No version fingerprinting — never reveal server stack to attackers
+        response.headers["X-Powered-By"] = "Sovereign Scholar"
+        # Content Security Policy — blocks inline scripts, XSS, iframing
+        response.headers["Content-Security-Policy"] = (
+            "default-src 'self'; "
+            "script-src 'self'; "
+            "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+            "font-src 'self' https://fonts.gstatic.com; "
+            "img-src 'self' data: blob:; "
+            "connect-src 'self' https://*.onrender.com https://*.vercel.app http://localhost:*; "
+            "frame-ancestors 'none';"
+        )
+        # Permissions-Policy — disable unnecessary browser features
+        response.headers["Permissions-Policy"] = (
+            "camera=(), microphone=(), geolocation=(), payment=()"
+        )
 
         # Response time tracking
         elapsed_ms = (time.monotonic() - request.state.start_time) * 1000
@@ -181,6 +196,14 @@ def sanitize_numeric(value, default: float = 0.0) -> float:
 
 
 # ---- Utility ----
+
+_REPORT_ID_PATTERN = re.compile(r"^[a-f0-9]{8}$")
+
+
+def validate_report_id(report_id: str) -> bool:
+    """Validate report_id format to prevent injection attacks."""
+    return bool(_REPORT_ID_PATTERN.match(report_id))
+
 
 def get_uptime() -> str:
     """Get server uptime as a human-readable string."""

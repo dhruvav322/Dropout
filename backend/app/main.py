@@ -48,7 +48,8 @@ async def lifespan(app: FastAPI):
         train_model()
 
     # Pre-load demo report
-    log.info("📋 Pre-loading Riverdale College demo data...")
+    demo_institution = os.getenv("DEMO_INSTITUTION", "DropoutRadar Demo")
+    log.info(f"📋 Pre-loading {demo_institution} demo data...")
     model = load_model()
     df = pd.read_csv(data_path)
     scored_df = predict_risk(model, df)
@@ -65,7 +66,7 @@ async def lifespan(app: FastAPI):
         students.append(student_data)
 
     students.sort(key=lambda s: s["risk_score"], reverse=True)
-    report_id = store_report("Riverdale College", students)
+    report_id = store_report(demo_institution, students)
 
     critical = sum(1 for s in students if s["risk_tier"] == "Critical")
     at_risk = sum(1 for s in students if s["risk_tier"] == "At-Risk")

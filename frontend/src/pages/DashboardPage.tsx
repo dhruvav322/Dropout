@@ -1,12 +1,22 @@
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import StatCard from '../components/StatCard';
 import RiskDonut from '../components/RiskDonut';
 import StudentTable from '../components/StudentTable';
 import { useDashboard } from '../hooks/useStudentData';
+import { useInstitution } from '../context/InstitutionContext';
 import './DashboardPage.css';
 
 export default function DashboardPage() {
   const { data, loading, error } = useDashboard();
+  const { setInstitution } = useInstitution();
+
+  // Push the real institution name from the API into shared context
+  useEffect(() => {
+    if (data?.institution) {
+      setInstitution(data.institution);
+    }
+  }, [data?.institution, setInstitution]);
 
   if (loading) {
     return (
@@ -23,7 +33,7 @@ export default function DashboardPage() {
         <span className="material-symbols-outlined" style={{ fontSize: 48, color: 'var(--error)' }}>error</span>
         <h2>Unable to load dashboard</h2>
         <p className="text-muted">{error}</p>
-        <p className="text-muted" style={{ marginTop: 8 }}>Make sure the backend is running on port 8000</p>
+        <p className="text-muted" style={{ marginTop: 8 }}>Ensure the backend service is running and accessible</p>
       </div>
     );
   }

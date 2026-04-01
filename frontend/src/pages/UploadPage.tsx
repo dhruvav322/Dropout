@@ -33,7 +33,7 @@ export default function UploadPage() {
       await new Promise(r => setTimeout(r, 600));
       setCurrentStep('scoring');
 
-      const result = await uploadCSV(file, institution || 'Riverdale College');
+      const result = await uploadCSV(file, institution || 'My Institution');
 
       setCurrentStep('done');
       await new Promise(r => setTimeout(r, 500));

@@ -6,13 +6,11 @@ Produces ~200 students with literature-backed features for dropout prediction.
 import csv
 import os
 import random
-from faker import Faker
-
 fake = Faker()
 Faker.seed(42)
 random.seed(42)
 
-NUM_STUDENTS = 200
+NUM_STUDENTS = 450
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "sample_students.csv")
 
 COLUMNS = [
@@ -108,8 +106,8 @@ def generate_student(sid: int) -> dict:
     risk_score += random.gauss(0, 0.1)
     risk_score = max(0, min(1, risk_score))
 
-    # ~30% dropout rate
-    dropped_out = 1 if risk_score > 0.45 else 0
+    # ~15% dropout rate (realistic baseline)
+    dropped_out = 1 if risk_score > 0.65 else 0
 
     return {
         "student_id": f"STU{sid:04d}",
